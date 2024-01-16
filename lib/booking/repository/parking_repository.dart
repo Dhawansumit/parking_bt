@@ -12,7 +12,7 @@ class ParkingRepository {
     return parkingService.getSlot(vehicle);
   }
 
-  releaseSlot({required String slot}) {
+  Future<dynamic> releaseSlot({required String slot}) {
     return parkingService.releaseSlot(slot);
   }
 }

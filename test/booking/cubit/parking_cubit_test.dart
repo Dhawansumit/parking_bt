@@ -19,12 +19,10 @@ void main() {
     );
   });
 
-  late ParkingCubit parkingCubit;
   late MockParkingRepository mockParkingRepository;
 
   setUp(() {
     mockParkingRepository = MockParkingRepository();
-    parkingCubit = ParkingCubit(parkingRepository: mockParkingRepository);
   });
 
   test('emits initial state', () {

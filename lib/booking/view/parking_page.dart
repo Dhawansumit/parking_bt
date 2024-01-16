@@ -7,7 +7,6 @@ import 'package:parking_bt/booking/repository/parking_repository.dart';
 import 'package:parking_bt/booking/service/parking_service.dart';
 import 'package:parking_bt/booking/state/parking_page_states.dart';
 import 'package:parking_bt/booking/view/widget/slot_release_widget.dart';
-import 'package:parking_bt/l10n/l10n.dart';
 
 class ParkingScreen extends StatelessWidget {
   const ParkingScreen({super.key});
@@ -31,7 +30,7 @@ class ParkingView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = context.l10n;
+    // final l10n = context.l10n;
     return Scaffold(
       appBar: AppBar(title: const Text('Parking Slot')),
       body: Center(

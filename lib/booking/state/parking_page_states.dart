@@ -15,7 +15,7 @@ class SlotReleased extends ParkingState {}
 
 class SlotAllocated extends ParkingState {
   const SlotAllocated(this.slot);
-  @override
+
   final String slot;
 
   @override

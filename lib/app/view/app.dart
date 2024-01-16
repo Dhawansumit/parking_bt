@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:parking_bt/booking/parking.dart';
-import 'package:parking_bt/counter/counter.dart';
 import 'package:parking_bt/l10n/l10n.dart';
 
 class App extends StatelessWidget {
